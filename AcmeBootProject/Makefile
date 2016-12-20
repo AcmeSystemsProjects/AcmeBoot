@@ -209,8 +209,8 @@ endif
 #-------------------------------------------------------------------------------
 
 # Tool suffix when cross-compiling
-#CROSS_COMPILE=arm-linux-gnueabi-
-CROSS_COMPILE?=/home/$(USER)/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-
+CROSS_COMPILE=arm-none-eabi-
+#CROSS_COMPILE?=/home/$(USER)/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-
 TRACE_LEVEL?=1
 OP_BOOTSTRAP_MCI?=on
 

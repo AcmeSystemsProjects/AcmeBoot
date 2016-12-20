@@ -61,8 +61,8 @@
 //------------------------------------------------------------------------------
 
 // Required for proper compilation.
-struct _reent r = {0, (FILE *) 0, (FILE *) 1, (FILE *) 0};
-struct _reent *_impure_ptr = &r;
+//struct _reent r = {0, (FILE *) 0, (FILE *) 1, (FILE *) 0};
+//struct _reent *_impure_ptr = &r;
 
 //------------------------------------------------------------------------------
 //         Local Functions
